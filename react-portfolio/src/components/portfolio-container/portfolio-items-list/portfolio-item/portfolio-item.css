@@ -1,0 +1,13 @@
+.separator{
+    color: rgba(255, 255, 255, 0.904);
+    width: 150px;
+    border-style: solid;
+}
+
+.image{
+    margin-bottom: 5px; 
+}
+
+.title{
+    margin: 8px;
+}

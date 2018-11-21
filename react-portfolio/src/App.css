@@ -1,0 +1,26 @@
+.App{ 
+  color: white;
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.App > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.container{
+  min-height: 90vh;
+}
+
+@media all and (min-width: 600px) {
+  .sidebar { flex: 1 }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 7 0px; }
+  .sidebar { order: 1; } 
+  .main    { order: 2; }
+}

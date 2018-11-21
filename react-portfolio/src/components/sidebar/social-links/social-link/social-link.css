@@ -1,0 +1,21 @@
+.link{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    margin: 6px;
+    padding: 3px 7px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.link , a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.link, a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}

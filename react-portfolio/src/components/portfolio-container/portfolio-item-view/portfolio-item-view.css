@@ -1,0 +1,22 @@
+.close-btn{
+    text-align: right;
+}
+
+.item-view{
+    color: gray;
+    border: 1px solid greenyellow;
+}
+
+.item-content{
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.description{
+    flex: 1;
+    margin: 20px;
+}
+
+.item-image{
+    flex: 0;
+}
